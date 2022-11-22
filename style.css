@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    background: #23252C;
+    height: 868px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 317px;
+    height: 718px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header, section {
+    background: #1A1B21;
+}
+
+img {
+    width: 317px;
+    max-height: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+h3 {
+    color: #F3BF99;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+}
+
+p {
+    color: #DCDCDC;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left; 
+}
+
+.interests h2 {
+    margin-top: 0px;
+}
+
+.interests p {
+    margin-bottom: 24px;
+}
+
+.btn {
+    color: #1A1B21;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.btn:focus,
+.btn:hover {
+    background: #5093E2;
+    cursor: pointer;
+}
+
+.info--btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 9px 13px 23px 11px;
+    height: 34px;
+    width: 247px;
+    border-radius: 6px;
+    background: #FFFFFF;
+}
+
+.fa-envelope {
+    margin-right: 8px;
+}
+
+.main-content {
+    padding:  0 35px;
+}
+
+footer {
+    background: #161619;
+    height: 64px;
+    margin-top: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer--icon-container {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+
+.footer--btn {
+    background: #918E9B;
+    height: 25px; 
+    width: 25px;
+    border: none;
+    border-radius: 3px;
+}
+
+footer i {
+    margin: 4px;
+}
